@@ -1,0 +1,155 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+header{
+    background-image: url(../imagens/topo.jpg) ;
+    height: 700px;
+    background-size: cover;
+    
+}
+#mainPage{
+    position: relative;
+}
+
+.littleHeader{
+    background-color: rgb(8, 26, 36);
+    height: 75px;
+}
+.littleHeader nav ul{
+    text-align: right;
+    padding: 15px;
+}
+
+.info{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+
+.linkInfo{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(17, 86, 122);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    transition: color .3s linear;
+}
+
+.linkInfo:hover{
+    color: white;
+}
+
+.logo{
+    width: 170px;
+    height: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 10px;
+    right: 1000px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.firstSection{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.firstSection h1{
+    font-size: 56px;
+    color: #252525;
+}
+
+.firstSection p{
+    font-size: 20px;
+    line-height: 2;
+    color: #555;
+}
+
+.Cards-Section{
+    padding: 0 100px 50px 100px;
+    color: #555;
+    overflow: auto;
+}
+
+.card{
+    width: 32%;
+    float: left;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.card img{
+    width: 95%;
+}
+
+.card-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 20px;
+}
+
+.about{
+    background-color: #003d52;
+    padding: 170px 100px;
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 700px;
+}
+
+.about h2{
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.about p{
+    font-size: 20px;
+    line-height: 1.5;
+    width: 70%;
+}
+
+#contact{
+    padding: 50px;
+}
+
+address{
+    color: #143f52;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+}
+.map{
+    height: 450px;
+    margin-top: 15px;
+}
+iframe{
+    width: 100%;
+
+    padding: 0;
+}
+
+footer{
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}

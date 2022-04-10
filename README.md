@@ -1,7 +1,7 @@
 # Front-End-Improviment
 
 # About
-Hi, I'm Learning HTML CSS JS and git/github from 0.
+Hi, I'm Learning HTML, CSS, JS, and git/github from 0.
 
 # Objective
 Here is where i gonna put the projects i'll be making, to see how i get better with time.
